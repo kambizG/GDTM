@@ -15,5 +15,8 @@ GDTM is a single-pass DTM approach that combines a context-rich and incremental 
 ![alt text](https://github.com/kambizG/gdtm/blob/master/img/protocol.png "The protocol of the algorithm.")
 
 ## Contributors
+1. [Kambiz Ghoorchian](https://www.kth.se/profile/ghoorian)
+2. [Magnus Sahlgren](https://www.sics.se/people/magnus-sahlgren)
+3. [Magnus Boman](https://www.kth.se/profile/mab)
 
 ## Acknowledgement
