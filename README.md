@@ -10,7 +10,7 @@ GDTM is a single-pass DTM approach that combines a context-rich and incremental 
 ## Usage
 ``` bash
 #Synopsis
-java -jar gdtm &#948; &#945; &#947;
+java -jar gdtm δ α γ
 ```
 
 #Params:
