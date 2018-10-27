@@ -1,7 +1,7 @@
 # GDTM - Graph-based Dynamic Topic Model
 
 The software for the algorithm presented in the following paper:
- - To be added.[PDF](https://www.kth.se/profile/ghoorian)
+ - To be added [PDF](https://www.kth.se/profile/ghoorian)
 
 
 ## Description
