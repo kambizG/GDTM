@@ -10,14 +10,12 @@ GDTM is a single-pass DTM approach that combines a context-rich and incremental 
 ## Usage
 ``` bash
 #Synopsis
-java -jar gdtm.jar [params ...]
+java -jar gdtm \delta \alpha \gamma
 
-#Params:
-
-* Mandatory
-- delta
-- pet
-- fwt
+* #Params:
+- \delta
+- \alpha
+- \gamma
 
 * Arbitrary
 * RI_Parameters
