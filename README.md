@@ -11,7 +11,7 @@ GDTM is a single-pass DTM approach that combines a context-rich and incremental 
 ``` bash
 #Synopsis
 java -jar gdtm \delta \alpha \gamma
-``` bash
+```
 
 #Params:
 - \delta # Function words adjustment parameter {value >= 1}
