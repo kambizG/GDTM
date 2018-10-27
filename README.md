@@ -11,28 +11,22 @@ GDTM is a single-pass DTM approach that combines a context-rich and incremental 
 ``` bash
 #Synopsis
 java -jar gdtm δ α γ
-```
 
 #Params:
-- &#948; # Function words adjustment parameter {value >= 1}
-- &#945; # Partition expansion threshold {value = [0 ... 1]}
-- &#947; # Function word elimination threshold {value = [0 ... 1]}
-
-# Arbitrary Parameters
-* RI_Parameters
-- dim
-- noz
-- win
-- pi
-- mwt
+- δ # Function words adjustment parameter {value >= 1}
+- α # Partition expansion threshold {value = [0...1]}
+- γ # Function word elimination threshold {value = [0...1]}
+```
+Following is a list of arbitrary parameters to costumize or enhance the performance relative to the volume of the stream.
+* RI_Parameters: List of parameters to set for the RI vectors. 
+- dim: the dimension of the vector. {value >= 2}. default = 2000
+- noz: the number of non zero elemtns. {value = [1...dim]}. default = 8
+- win: the size of the moving window to construct the contex structures. default = 2 
+- mwt: RI vectors pruning parameter. {value = [0...1]}. default = 0.3
 
 * KG_Parameters
-- skip
-- saving_step
-- input_dir
-- model_dir
-- documents_file
-- theta_file
+- skip: Skip-gram value. {1 = bigram, 2 = 1-skip-bigram, 3 = 2-skip-bigram, ...}
+- SN (snapshot): the algorithm will take a snapshot of the partitioned documents and clean the momry.
 
 ## Protocol
 ![alt text](https://github.com/kambizG/gdtm/blob/master/img/protocol.png "The protocol of the algorithm.")
