@@ -27,8 +27,8 @@ Following is a list of arbitrary parameters to costumize or enhance the performa
 > + mwt: RI vectors pruning parameter. {value = [0...1]}. default = 0.3
 
 * Knowledge Graph Parameters
-- skip: Skip-gram value. {1 = bigram, 2 = 1-skip-bigram, 3 = 2-skip-bigram, ...}
-- SN (snapshot): the algorithm will take a snapshot of the partitioned documents and clean the momry.
+> - skip: Skip-gram value. {1 = bigram, 2 = 1-skip-bigram, 3 = 2-skip-bigram, ...}
+> - SN (snapshot): the algorithm will take a snapshot of the partitioned documents and clean the momry.
 
 ## Protocol
 ![alt text](https://github.com/kambizG/gdtm/blob/master/img/protocol.png "The protocol of the algorithm.")
