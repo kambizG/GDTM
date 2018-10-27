@@ -10,13 +10,13 @@ GDTM is a single-pass DTM approach that combines a context-rich and incremental 
 ## Usage
 ``` bash
 #Synopsis
-java -jar gdtm \delta \alpha \gamma
+java -jar gdtm &#948; &#945; &#947;
 ```
 
 #Params:
-- \delta # Function words adjustment parameter {value >= 1}
+- &#948; # Function words adjustment parameter {value >= 1}
 - &#945; # Partition expansion threshold {value = [0 ... 1]}
-- \gamma # Function word elimination threshold {value = [0 ... 1]}
+- &#947; # Function word elimination threshold {value = [0 ... 1]}
 
 # Arbitrary Parameters
 * RI_Parameters
