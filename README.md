@@ -12,12 +12,12 @@ GDTM is a single-pass DTM approach that combines a context-rich and incremental 
 #Synopsis
 java -jar gdtm \delta \alpha \gamma
 
-* #Params:
-- \delta
-- \alpha
-- \gamma
+#Params:
+- \delta # Function words adjustment parameter {value >= 1}
+- \alpha # Partition expansion threshold {value = [0 ... 1]}
+- \gamma # Function word elimination threshold {value = [0 ... 1]}
 
-* Arbitrary
+# Arbitrary Parameters
 * RI_Parameters
 - dim
 - noz
