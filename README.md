@@ -3,11 +3,11 @@
 The software for the algorithm presented in the following paper:
  - To be added [PDF](https://www.kth.se/profile/ghoorian)
 
-
 ## Description
 GDTM is a single-pass DTM approach that combines a context-rich and incremental feature representation model, called *Random Indexing (RI)* with a novel online *graph partitioning* algorithm to address scalability and dynamicity in topic modeling over short texts. In addition, GDTM uses a rich language modeling approach based on the *Skip-gram* technique to account for sparsity.
 
 ## Usage
+
 ``` bash
 #Synopsis
 java -jar gdtm δ α γ
@@ -17,14 +17,16 @@ java -jar gdtm δ α γ
 - α # Partition expansion threshold {value = [0...1]}
 - γ # Function word elimination threshold {value = [0...1]}
 ```
-Following is a list of arbitrary parameters to costumize or enhance the performance relative to the volume of the stream.
-* RI_Parameters: List of parameters to set for the RI vectors. 
-- dim: the dimension of the vector. {value >= 2}. default = 2000
-- noz: the number of non zero elemtns. {value = [1...dim]}. default = 8
-- win: the size of the moving window to construct the contex structures. default = 2 
-- mwt: RI vectors pruning parameter. {value = [0...1]}. default = 0.3
 
-* KG_Parameters
+Following is a list of arbitrary parameters to costumize or enhance the performance relative to the volume of the stream.
+
+* Random Indexing Vectors parameters
++ dim: the dimension of the vector. {value >= 2}. default = 2000
++ noz: the number of non zero elemtns. {value = [1...dim]}. default = 8
++ win: the size of the moving window to construct the contex structures. default = 2 
++ mwt: RI vectors pruning parameter. {value = [0...1]}. default = 0.3
+
+* Knowledge Graph Parameters
 - skip: Skip-gram value. {1 = bigram, 2 = 1-skip-bigram, 3 = 2-skip-bigram, ...}
 - SN (snapshot): the algorithm will take a snapshot of the partitioned documents and clean the momry.
 
