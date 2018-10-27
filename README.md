@@ -20,15 +20,17 @@ java -jar gdtm δ α γ
 
 Following is a list of arbitrary parameters to costumize or enhance the performance relative to the volume of the stream.
 
-* Random Indexing Vectors parameters
+* RI Params
 > + dim: the dimension of the vector. {value >= 2}. default = 2000
 > + noz: the number of non zero elemtns. {value = [1...dim]}. default = 8
 > + win: the size of the moving window to construct the contex structures. default = 2 
 > + mwt: RI vectors pruning parameter. {value = [0...1]}. default = 0.3
 
-* Knowledge Graph Parameters
+* See also
 > - skip: Skip-gram value. {1 = bigram, 2 = 1-skip-bigram, 3 = 2-skip-bigram, ...}
 > - SN (snapshot): the algorithm will take a snapshot of the partitioned documents and clean the momry.
+> - intput: the input can be set arbitrarily.
+> - output: the output can be set arbitrarily
 
 ## Protocol
 ![alt text](https://github.com/kambizG/gdtm/blob/master/img/protocol.png "The protocol of the algorithm.")
