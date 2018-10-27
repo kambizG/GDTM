@@ -8,7 +8,7 @@ The software for the algorithm presented in the following paper:
 GDTM is a single-pass DTM approach that combines a context-rich and incremental feature representation model, called *Random Indexing (RI)* with a novel online *graph partitioning* algorithm to address scalability and dynamicity in topic modeling over short texts. In addition, GDTM uses a rich language modeling approach based on the *Skip-gram* technique to account for sparsity.
 
 ## Usage
-''' bash
+``` bash
 #Synopsis
 java -jar gdtm.jar [params ...]
 
@@ -34,7 +34,8 @@ java -jar gdtm.jar [params ...]
 - model_dir
 - documents_file
 - theta_file
-'''
+
+```
 
 ## Protocol
 ![alt text](https://github.com/kambizG/gdtm/blob/master/img/protocol.png "The protocol of the algorithm.")
