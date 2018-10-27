@@ -11,10 +11,11 @@ GDTM is a single-pass DTM approach that combines a context-rich and incremental 
 ``` bash
 #Synopsis
 java -jar gdtm \delta \alpha \gamma
+``` bash
 
 #Params:
 - \delta # Function words adjustment parameter {value >= 1}
-- \alpha # Partition expansion threshold {value = [0 ... 1]}
+- &#945; # Partition expansion threshold {value = [0 ... 1]}
 - \gamma # Function word elimination threshold {value = [0 ... 1]}
 
 # Arbitrary Parameters
@@ -32,8 +33,6 @@ java -jar gdtm \delta \alpha \gamma
 - model_dir
 - documents_file
 - theta_file
-
-```
 
 ## Protocol
 ![alt text](https://github.com/kambizG/gdtm/blob/master/img/protocol.png "The protocol of the algorithm.")
