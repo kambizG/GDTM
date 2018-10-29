@@ -33,13 +33,13 @@ Following is a list of arbitrary parameters to costumize or enhance the performa
 > - output: the output can be set arbitrarily
 
 ### Input Data Format
-###### [Document<sub>1</sub>]
-###### [Document<sub>2</sub>]
+###### (Document<sub>1</sub>)
+###### (Document<sub>2</sub>)
 ###### ...
-###### [Document<sub>n</sub>]
+###### (Document<sub>n</sub>)
 
 ### Output
-###### \[T<sub>1</sub>:L<sub>1</sub>\] [T<sub>2</sub>:L<sub>2</sub>] ... [T<sub>m</sub>:L<sub>m</sub>]
+###### <pre> T<sub>1</sub>:L<sub>1</sub>  T<sub>2</sub>:L<sub>2</sub>  ...  T<sub>m</sub>:L<sub>m</sub> </pre>
 ###### ...
 ###### [T<sub>1</sub>:L<sub>1</sub>] [T<sub>2</sub>:L<sub>2</sub>] ... [T<sub>m</sub>:L<sub>m</sub>]
 
