@@ -42,9 +42,9 @@ Following is a list of arbitrary parameters to costumize or enhance the performa
 <model_dir/doc_topic_dist.txt>
 
 > topic<sub>1</sub>:likelihood topic<sub>2</sub>:likelihood ... topic<sub>m</sub>:likelihood
-> topic<sub>1</sub>:likelihood topic<sub>2</sub>:likelihood ... topic<sub>m</sub>:likelihood
-> ...
-> topic<sub>1</sub>:likelihood topic<sub>2</sub>:likelihood ... topic<sub>m</sub>:likelihood
+> > topic<sub>1</sub>:likelihood topic<sub>2</sub>:likelihood ... topic<sub>m</sub>:likelihood
+> > ...
+> > topic<sub>1</sub>:likelihood topic<sub>2</sub>:likelihood ... topic<sub>m</sub>:likelihood
 
 ## Protocol
 ![alt text](https://github.com/kambizG/gdtm/blob/master/img/protocol.png "The protocol of the algorithm.")
