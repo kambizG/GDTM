@@ -42,6 +42,17 @@ Following is a list of arbitrary parameters to costumize or enhance the performa
 |Document<sub>n</sub>|
 
 ### Output
+
+|             |          Grouping           ||
+First Header  | Second Header | Third Header |
+ ------------ | :-----------: | -----------: |
+Content       |          *Long Cell*        ||
+Content       |   **Cell**    |         Cell |
+
+New section   |     More      |         Data |
+And more      | With an escaped '\|'         ||  
+
+
 <model_dir/doc_topic_dist.txt>
 |Document Topic Ditsributions||||
 |-------------|:-------------|:-------------|:-------------|
