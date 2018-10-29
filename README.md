@@ -43,12 +43,12 @@ Following is a list of arbitrary parameters to costumize or enhance the performa
 
 ### Output
 <model_dir/doc_topic_dist.txt>
-|Document Topic Ditsributions|
-|-------------|:-------------|:-------------|
-|topic<sub>1</sub>:likelihood|topic<sub>1</sub>:likelihood|...|topic<sub>1</sub>:likelihood|
-|topic<sub>1</sub>:likelihood|topic<sub>1</sub>:likelihood|...|topic<sub>1</sub>:likelihood|
-|...|
-|topic<sub>1</sub>:likelihood|topic<sub>1</sub>:likelihood|...|topic<sub>1</sub>:likelihood|
+|Document Topic Ditsributions||||
+|-------------|:-------------|:-------------|:-------------|
+|topic<sub>1</sub>:likelihood|topic<sub>2</sub>:likelihood|...|topic<sub>m</sub>:likelihood|
+|topic<sub>1</sub>:likelihood|topic<sub>2</sub>:likelihood|...|topic<sub>m</sub>:likelihood|
+|...||||
+|topic<sub>1</sub>:likelihood|topic<sub>2</sub>:likelihood|...|topic<sub>m</sub>:likelihood|
 
 >  topic<sub>2</sub>:likelihood ... topic<sub>m</sub>:likelihood
 > > topic<sub>1</sub>:likelihood topic<sub>2</sub>:likelihood ... topic<sub>m</sub>:likelihood
