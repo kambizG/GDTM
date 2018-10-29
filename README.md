@@ -32,6 +32,19 @@ Following is a list of arbitrary parameters to costumize or enhance the performa
 > - intput: the input can be set arbitrarily.
 > - output: the output can be set arbitrarily
 
+## Input Data Format
+  [Document<sub>1</sub>]
+  [Document<sub>2</sub>]
+  ...
+  [Document<sub>n</sub>]
+
+
+## Evaluation
+### B-Cubed F-Score
+
+### Coherence Score
+
+
 ## Protocol
 ![alt text](https://github.com/kambizG/gdtm/blob/master/img/protocol.png "The protocol of the algorithm.")
 
