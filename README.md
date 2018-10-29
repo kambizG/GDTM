@@ -33,7 +33,7 @@ Following is a list of arbitrary parameters to costumize or enhance the performa
 > - output: the output can be set arbitrarily
 
 ### Input Data Format
-<pre> 
+<pre>
 Document<sub>1</sub>
 Document<sub>2</sub>
 ...
@@ -42,11 +42,13 @@ Document<sub>n</sub>
 
 ### Output
 <pre>
-T<sub>1</sub>:L<sub>1</sub>  T<sub>2</sub>:L<sub>2</sub>  ...  T<sub>m</sub>:L<sub>m</sub>
-T<sub>1</sub>:L<sub>1</sub>  T<sub>2</sub>:L<sub>2</sub>  ...  T<sub>m</sub>:L<sub>m</sub>
+T<sub>1</sub>:L<sub>11</sub>  T<sub>2</sub>:L<sub>12</sub>  ...  T<sub>m</sub>:L<sub>1m</sub>
+T<sub>1</sub>:L<sub>21</sub>  T<sub>2</sub>:L<sub>22</sub>  ...  T<sub>m</sub>:L<sub>2m</sub>
 ...
-T<sub>1</sub>:L<sub>1</sub>  T<sub>2</sub>:L<sub>2</sub>  ...  T<sub>m</sub>:L<sub>m</sub>
+T<sub>1</sub>:L<sub>n1</sub>  T<sub>2</sub>:L<sub>n2</sub>  ...  T<sub>m</sub>:L<sub>nm</sub>
 </pre>
+
+Where T<sub>i</sub> indicates the topic number *i* and L<sub>ji</sub> indicates the liklihood of the topic *i* for the document *j*.
 
 ## Protocol
 ![alt text](https://github.com/kambizG/gdtm/blob/master/img/protocol.png "The protocol of the algorithm.")
