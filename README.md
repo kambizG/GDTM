@@ -33,14 +33,14 @@ Following is a list of arbitrary parameters to costumize or enhance the performa
 > - output: the output can be set arbitrarily
 
 ### Input Data Format
-
-| Tables        |
+| ------------- |
+| Documents|
 | ------------- |
 | Document<sub>1</sub>|
 | Document<sub>2</sub>|
 | ...|
 | Document<sub>n</sub>|
-
+| ------------- |
 ### Output
 <model_dir/doc_topic_dist.txt>
 
