@@ -38,6 +38,7 @@ Document<sub>1</sub>
 Document<sub>2</sub>
 ...
 Document<sub>n</sub>
+</pre>
 
 ### Output
 <pre>
