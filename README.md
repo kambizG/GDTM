@@ -33,10 +33,10 @@ Following is a list of arbitrary parameters to costumize or enhance the performa
 > - output: the output can be set arbitrarily
 
 ## Input Data Format
-  Document<sub>1</sub>
-  Document<sub>2</sub>
-  ...
-  Document<sub>n</sub>
+> Document<sub>1</sub>
+> Document<sub>2</sub>
+> ...
+> Document<sub>n</sub>
 
 
 ## Evaluation
