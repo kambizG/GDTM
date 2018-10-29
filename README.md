@@ -33,6 +33,11 @@ Following is a list of arbitrary parameters to costumize or enhance the performa
 > - output: the output can be set arbitrarily
 
 ### Input Data Format
+#####Document<sub>1</sub>
+#####Document<sub>2</sub>
+#####...
+#####Document<sub>n</sub>
+
 
 |Documents|
 |-------------|
@@ -42,18 +47,8 @@ Following is a list of arbitrary parameters to costumize or enhance the performa
 |Document<sub>n</sub>|
 
 ### Output
+#<model_dir/doc_topic_dist.txt>
 
-|             |          Grouping           ||
-First Header  | Second Header | Third Header |
- ------------ | :-----------: | -----------: |
-Content       |          *Long Cell*        ||
-Content       |   **Cell**    |         Cell |
-
-New section   |     More      |         Data |
-And more      | With an escaped '\|'         ||  
-
-
-<model_dir/doc_topic_dist.txt>
 |Document Topic Ditsributions||||
 |-------------|:-------------|:-------------|:-------------|
 |topic<sub>1</sub>:likelihood|topic<sub>2</sub>:likelihood|...|topic<sub>m</sub>:likelihood|
