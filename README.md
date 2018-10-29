@@ -33,33 +33,15 @@ Following is a list of arbitrary parameters to costumize or enhance the performa
 > - output: the output can be set arbitrarily
 
 ### Input Data Format
-##### Document<sub>1</sub>
-##### Document<sub>2</sub>
-##### ...
-##### Document<sub>n</sub>
-
-
-|Documents|
-|-------------|
-|Document<sub>1</sub>|
-|Document<sub>2</sub>|
-|...|
-|Document<sub>n</sub>|
+###### Document<sub>1</sub>
+###### Document<sub>2</sub>
+###### ...
+###### Document<sub>n</sub>
 
 ### Output
-#<model_dir/doc_topic_dist.txt>
-
-|Document Topic Ditsributions||||
-|-------------|:-------------|:-------------|:-------------|
-|topic<sub>1</sub>:likelihood|topic<sub>2</sub>:likelihood|...|topic<sub>m</sub>:likelihood|
-|topic<sub>1</sub>:likelihood|topic<sub>2</sub>:likelihood|...|topic<sub>m</sub>:likelihood|
-|...||||
-|topic<sub>1</sub>:likelihood|topic<sub>2</sub>:likelihood|...|topic<sub>m</sub>:likelihood|
-
->  topic<sub>2</sub>:likelihood ... topic<sub>m</sub>:likelihood
-> > topic<sub>1</sub>:likelihood topic<sub>2</sub>:likelihood ... topic<sub>m</sub>:likelihood
-> > ...
-> > topic<sub>1</sub>:likelihood topic<sub>2</sub>:likelihood ... topic<sub>m</sub>:likelihood
+###### T<sub>1</sub>:L<sub>1</sub> T<sub>2</sub>:L<sub>2</sub> ... T<sub>m</sub>:L<sub>m</sub>
+###### ...
+###### T<sub>1</sub>:L<sub>1</sub> T<sub>2</sub>:L<sub>2</sub> ... T<sub>m</sub>:L<sub>m</sub>
 
 ## Protocol
 ![alt text](https://github.com/kambizG/gdtm/blob/master/img/protocol.png "The protocol of the algorithm.")
