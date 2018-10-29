@@ -34,24 +34,33 @@ Following is a list of arbitrary parameters to costumize or enhance the performa
 
 ### Input Data Format
 
-| Documents|
-| ------------- |
-| Document<sub>1</sub>|
-| Document<sub>2</sub>|
-| ...|
-| Document<sub>n</sub>|
+|Documents|
+|-------------|
+|Document<sub>1</sub>|
+|Document<sub>2</sub>|
+|...|
+|Document<sub>n</sub>|
 
 ### Output
 <model_dir/doc_topic_dist.txt>
 
-| Document Topic Ditsributions|
-| ------------- |
-|Document<sub>1</sub>|Document<sub>1</sub>|...|Document<sub>1</sub>|
-|Document<sub>1</sub>|Document<sub>1</sub>|...|Document<sub>1</sub>|
+|Documents|
+|-------------|:-------------|:-------------|
+|Document<sub>1</sub>|
+|Document<sub>2</sub>|
 |...|
-|Document<sub>1</sub>|Document<sub>1</sub>|...|Document<sub>1</sub>|
+|Document<sub>n</sub>|
 
-> topic<sub>1</sub>:likelihood topic<sub>2</sub>:likelihood ... topic<sub>m</sub>:likelihood
+
+
+|Document Topic Ditsributions|||
+|-------------|:-------------|:-------------|
+|topic<sub>1</sub>:likelihood|topic<sub>1</sub>:likelihood|...|topic<sub>1</sub>:likelihood|
+|topic<sub>1</sub>:likelihood|topic<sub>1</sub>:likelihood|...|topic<sub>1</sub>:likelihood|
+|...|||
+|topic<sub>1</sub>:likelihood|topic<sub>1</sub>:likelihood|...|topic<sub>1</sub>:likelihood|
+
+>  topic<sub>2</sub>:likelihood ... topic<sub>m</sub>:likelihood
 > > topic<sub>1</sub>:likelihood topic<sub>2</sub>:likelihood ... topic<sub>m</sub>:likelihood
 > > ...
 > > topic<sub>1</sub>:likelihood topic<sub>2</sub>:likelihood ... topic<sub>m</sub>:likelihood
