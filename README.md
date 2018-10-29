@@ -34,17 +34,12 @@ Following is a list of arbitrary parameters to costumize or enhance the performa
 
 ### Input Data Format
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| Document<sub>1</sub>      | right-aligned | $1600 |
-| Document<sub>2</sub>      | centered      |   $12 |
-| ... | are neat      |    $1 |
-| Document<sub>n</sub> | are neat      |    $1 |
-
-> Document<sub>1</sub>
-> Document<sub>2</sub>
-> ...
-> Document<sub>n</sub>
+| Tables        |
+| ------------- |
+| Document<sub>1</sub>|
+| Document<sub>2</sub>|
+| ...|
+| Document<sub>n</sub>|
 
 ### Output
 <model_dir/doc_topic_dist.txt>
