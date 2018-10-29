@@ -39,9 +39,9 @@ Following is a list of arbitrary parameters to costumize or enhance the performa
 ###### (Document<sub>n</sub>)
 
 ### Output
-###### <pre> T<sub>1</sub>:L<sub>1</sub>  T<sub>2</sub>:L<sub>2</sub>  ...  T<sub>m</sub>:L<sub>m</sub> </pre>
-###### ...
-###### [T<sub>1</sub>:L<sub>1</sub>] [T<sub>2</sub>:L<sub>2</sub>] ... [T<sub>m</sub>:L<sub>m</sub>]
+<pre> T<sub>1</sub>:L<sub>1</sub>  T<sub>2</sub>:L<sub>2</sub>  ...  T<sub>m</sub>:L<sub>m</sub>
+...
+T<sub>1</sub>:L<sub>1</sub>  T<sub>2</sub>:L<sub>2</sub>  ...  T<sub>m</sub>:L<sub>m</sub> </pre>
 
 ## Protocol
 ![alt text](https://github.com/kambizG/gdtm/blob/master/img/protocol.png "The protocol of the algorithm.")
