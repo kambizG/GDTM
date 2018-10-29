@@ -33,11 +33,12 @@ Following is a list of arbitrary parameters to costumize or enhance the performa
 > - output: the output can be set arbitrarily
 
 ## Input Data Format
-> Document
-> Document
+``` bash
+> Document<sub>1<\sub>
+> Document<sub>2<\sub>
 > ...
-> Document
-
+> Document<sub>n<\sub>
+```
 
 ## Evaluation
 ### B-Cubed F-Score
