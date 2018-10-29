@@ -48,7 +48,7 @@ T<sub>1</sub>:L<sub>21</sub>  T<sub>2</sub>:L<sub>22</sub>  ...  T<sub>m</sub>:L
 T<sub>1</sub>:L<sub>n1</sub>  T<sub>2</sub>:L<sub>n2</sub>  ...  T<sub>m</sub>:L<sub>nm</sub>
 </pre>
 
-Where T<sub>i</sub> indicates the topic number *i* and L<sub>ji</sub> indicates the liklihood of the topic *i* for the document *j*.
+Where T<sub>i</sub> indicates the topic number *i* and L<sub>ji</sub> indicates the corresponding likelihood of the topic *i* for the document *j*.
 
 ## Protocol
 ![alt text](https://github.com/kambizG/gdtm/blob/master/img/protocol.png "The protocol of the algorithm.")
