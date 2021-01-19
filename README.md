@@ -1,7 +1,7 @@
 # GDTM - Graph-based Dynamic Topic Model
 
 The software for the algorithm presented in the following paper:
- - To be added [PDF](https://www.kth.se/profile/ghoorian)
+ - To be added [PDF](https://link.springer.com/article/10.1007/s13748-020-00206-2)
 
 ## Description
 GDTM is a single-pass DTM approach that combines a context-rich and incremental feature representation model, called *Random Indexing (RI)* with a novel online *graph partitioning* algorithm to address scalability and dynamicity in topic modeling over short texts. In addition, GDTM uses a rich language modeling approach based on the *Skip-gram* technique to account for sparsity.
